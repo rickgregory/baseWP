@@ -1,0 +1,61 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: $max-width;
+  margin: 0 auto;
+  display: flex;
+
+  &.fourohfour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh !important;
+
+  .error {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+}
+
+.standard {
+  //base SSA Green background, full width
+  background: $ssa-green;
+  padding: 1rem;
+
+  h2,
+  h3,
+  p {
+    color: #fff;
+  }
+}
+
+.alternate {
+  //alternate colored background, full width
+  background: $ssa-blue;
+
+  h2,
+  h3,
+  p {
+    color: #fff;
+  }
+  padding: 1rem;
+
+  .gfield_required {
+    color: yellow !important;
+  }
+}
+
+.blank {
+  padding: 2rem 0;
+}
+
+.infographic {
+  min-height: 500px;
+  background: #999;
+}

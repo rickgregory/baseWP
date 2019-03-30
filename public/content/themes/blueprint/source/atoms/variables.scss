@@ -1,0 +1,19 @@
+/* EDIT THESE TO MATCH PROJECT NEEDS*/
+
+$text: 'Source Sans Pro', sans-serif;
+$display: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$callout-bold: 'mission_gothicbold', serif;
+$callout: 'mission_gothicregular', serif;
+$base-font-size: 1rem;
+
+/* COLORS */
+$ssa-blue: rgb(55, 97, 112);
+$ssa-teal: rgb(19, 169, 172);
+$ssa-green: rgb(144, 170, 105);
+$max-width: 68rem;
+$mobile-max-width: 96%;
+
+a:link,
+a:visited {
+  color: $ssa-teal;
+}

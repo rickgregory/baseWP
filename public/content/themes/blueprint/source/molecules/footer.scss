@@ -1,0 +1,44 @@
+footer {
+  background: #fff;
+  padding: 2rem 0;
+  width: 100%;
+  border-top: 3px solid $ssa-blue;
+}
+
+ul#menu-footer {
+  padding-left: 0;
+}
+
+footer .wrap {
+  padding: 0 !important;
+
+  section {
+    width: 60%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-left: 0;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.legal {
+  text-align: left;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}

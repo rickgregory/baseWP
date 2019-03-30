@@ -1,0 +1,33 @@
+/*
+Theme Name: blueprint
+*/
+
+/* Atoms
+/*  Atoms are basic building blocks that can be reusedi in different contexts, for example, an unordered list item... could be a menu item but also could be a bullet list item in body copy.
+/********************************/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600');
+@import "source/atoms/variables";
+@import "source/atoms/reset";
+@import "source/atoms/buttons";
+@import "source/atoms/colors";
+@import "source/atoms/fonts";
+@import "source/atoms/headings";
+@import "source/atoms/list-items";
+@import "source/atoms/paragraph";
+@import "source/atoms/terms";
+@import "source/atoms/images";
+
+/*Molecules
+/* Molecules are built from atoms and are snigle purpose components that can be reused, e.g. a menu.
+/********************************/
+@import "source/molecules/nav";
+@import "source/molecules/header";
+@import "source/molecules/footer";
+
+
+/* organisms */
+@import "source/organisms/typegrid";
+@import "source/organisms/containers";
+@import "source/organisms/maxmega";
+@import "source/organisms/specifics";

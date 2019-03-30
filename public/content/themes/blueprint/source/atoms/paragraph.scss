@@ -1,0 +1,26 @@
+p,
+div {
+  font-size: $base-font-size;
+  color: #444;
+  font-family: $text;
+  line-height: 1.66;
+  font-weight: 300;
+}
+
+.blurb {
+  padding-top: 1rem !important;
+
+  .content {
+    flex-direction: column;
+    padding: 1rem;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  p {
+    //used for initial entry copy to set message tone
+    font-size: 125%;
+  }
+}
