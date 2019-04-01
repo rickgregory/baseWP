@@ -18,11 +18,7 @@
       "type": "composer",
       "url": "https://wpackagist.org"},
       {"type": "composer",
-      "url": "https://composer.deliciousbrains.com"},
-      {
-         "type": "vcs",
-         "url": "https://github.com/igorw/monolog"
-     }
+      "url": "https://composer.deliciousbrains.com"}
   ],
   "config": {
     "preferred-install": "dist",
@@ -38,6 +34,12 @@
     "wpackagist-plugin/limit-login-attempts": "*",
     "wpackagist-plugin/redis-cache": "*",
     "wpackagist-plugin/wordpress-seo":">=7.0.2",
+    "wpackagist-plugin/google-analyticator":"dev-trunk",
+    "wpackagist-plugin/ewww-image-optimizer":"dev-trunk",
+    "wpackagist-plugin/megamenu":"dev-trunk",
+    "wpackagist-plugin/really-simple-ssl":"dev-trunk",
+    "wpackagist-plugin/redirection":"dev-trunk",
+    "wpackagist-plugin/wp-sitemap-page":"dev-trunk",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "wpackagist-theme/twentynineteen": "*"
